@@ -33,7 +33,7 @@ add_action( 'after_setup_theme', 'site_setup' );
 function site_scripts() {
   wp_enqueue_style( 'site-style-owl', get_template_directory_uri() . '/assets/css/owl.carousel.min.css' );
   wp_enqueue_style( 'site-style-owl-theme', get_template_directory_uri() . '/assets/css/owl.theme.default.min.css' );
-  wp_enqueue_style( 'site-style-font', 'https://fonts.googleapis.com/css?family=Titillium+Web:100,200,300,400,500,600,700,800');
+  wp_enqueue_style( 'site-style-owl-fontawesome', get_template_directory_uri() . '/assets/css/fontawesome/css/all.min.css' );
   wp_enqueue_style( 'site-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'site-script-jquery', get_template_directory_uri() ."/assets/js/jquery-3.3.1.min.js");

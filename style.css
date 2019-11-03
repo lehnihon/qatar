@@ -1,9 +1,9 @@
 /*
-Theme Name: Simpsi
+Theme Name: Qatar
 Author: Leandro Kenji Ishikawa
 Version: 1.0.0
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap");
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7354,7 +7354,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #323232;
   font-size: 14px; }
 
@@ -7365,12 +7365,9 @@ a {
     color: #ff3800; }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   color: #323232; }
-
-h1, h2 {
-  font-size: 2rem; }
 
 .menu-hamb {
   display: inline-block;
