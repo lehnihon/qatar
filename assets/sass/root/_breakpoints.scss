@@ -1,22 +1,16 @@
 @include media-breakpoint-down(md) {
-    #nav-fullscreen{
-        &.overlay{
-            a{font-size: 1rem !important}
-            .menu-close{
-            font-size: 2rem !important;
-            top: 35px !important;
-            right: 35px !important;
-            }
-        } 
+    #home-contato{
+        background:#02d372 !important;
+    }
+    .btn-enviar{
+        background-color:#000 !important;
+        border:1px solid #000!important;
+        color:#01d774 !important;
+        &:hover{
+            background-color:#01d774 !important;
+            color:#000 !important;
+        }
     }
 }
 
 
-@media (pointer: coarse) and (hover: none) {
-    #header {
-        background: url('assets/img/background.jpg') black no-repeat center center scroll;
-    }
-    #header video {
-        display: none;
-    }
-}

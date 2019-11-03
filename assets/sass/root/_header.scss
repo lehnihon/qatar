@@ -1,112 +1,47 @@
 #header{
-  background-color:#FFF;
-  .nav-container{
-    border:1px solid #e2e2e3;
-    .navbar-brand{
-      display:inline-block;
-    }
-    .social-media{
-      width:100px;
-      a{
-        font-size:1.25rem;
-        margin-right:.25rem;
-      }
-    }
-    .main-nav{
-      .active{
+  background-image: url("assets/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-color:#000;
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+  height: 100vh;
+  .logo{
+    max-width: 200px;
+  }
+  nav{
+    .navbar-nav{
+      .nav-item{
         a{
-          color:#ff3800;
-        }
-      }
-      a{
-        color:#323232;
-        &:hover{
-          text-decoration: none;
-          color:#ff3800;
+          color:#FFF;
+          font-weight: bold;
+          &:hover{
+            color:#02d472;
+          }
         }
       }
     }
-    .search{
-      width:100px;
-      a{
-        font-size:1.25rem;
-      }
-    }
   }
-}
-#banner{
-  .banner-sind{
-    background-image: url("assets/img/sind.jpg");
-    background-repeat: no-repeat;
-    background-color:#fc7800;
-    color:#FFF;
-    max-height: 270px;
-    .banner-box{
-      padding:3rem 0;
-      text-align: center;
-      img{
-        height: 50px;
-      }
-      h2{
-        color:#FFF;
-        font-size:1.25rem;
-        text-transform: uppercase;
-        margin-top:2rem;
-      }
-      h4{
-        font-weight: normal;
-        color:#FFF;
-        font-size:.875rem;
-      }
-    }
-    .btn-sind{
-      border:1px solid #009045;
-      background-color:#009045;
-      display: block;
-      padding:.75rem;
-      text-align: center;
+  .banner-title{
+    position:absolute;
+    top:35%;
+    text-align:center;
+    left:0;
+    right:0;
+    margin:0 auto;
+    h1{
+      border:3px solid #FFF;
+      padding:1rem 1rem;
+      margin-bottom:1rem;
       color:#FFF;
-      &:hover{
-        background-color:#FFF;
-        color:#009045;
-      }
+      font-weight: bold;
+      display: inline-block;
+      font-size:2.5rem;
     }
-  }
-  .banner-parc{
-    background-image: url("assets/img/parc.jpg");
-    background-repeat: no-repeat;
-    background-color:#ff3800;
-    color:#FFF;
-    max-height: 270px;
-    .banner-box{
-      padding:3rem 0;
-      text-align: center;
-      img{
-        height: 50px;
-      }
-      h2{
-        color:#FFF;
-        font-size:1.25rem;
-        text-transform: uppercase;
-        margin-top:2rem;
-      }
-      h4{
-        font-weight: normal;
-        color:#FFF;
-        font-size:.875rem;
-      }
-    }
-    .btn-sind{
-      border:1px solid #ff3800;
-      background-color:#ff3800;
-      display: block;
-      padding:.75rem;
-      text-align: center;
+    h2{
       color:#FFF;
-      &:hover{
-        background-color:#FFF;
-        color:#ff3800;
-      }
-    }
+      font-weight: normal;
+      font-size:1rem;
+    }   
   }
 }
